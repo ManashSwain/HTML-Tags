@@ -29,11 +29,11 @@ Usage
 
 To use this repository, clone it to your local machine using the following command:
 
-git clone https://github.com/your-username/html-tags-repository.git
+git clone https://github.com/ManashSwain/HTML-Tags.git
 
 Navigate to the repository directory:
 
-cd html-tags-repository
+cd HTML-Tags
 
 Open the index.html file in your browser to explore the examples and explanations of each HTML tag.
 
