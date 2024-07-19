@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <title>HTML Tags</title>
+     <!-- Favicon -->
+      <link rel="icon" type="png" href="./Images/html.png">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="heading">Heading Tags</h1>
+    <h3 class="description">There are 6 heading tags</h3>
+    <h1>This is written in h1 tag</h1>
+    <h2>This is written in h2 tag</h2>
+    <h3>This is written in h3 tag</h3>
+    <h4>This is written in h4 tag</h4>
+    <h5>This is written in h5 tag</h5>
+    <h6>This is written in h6 tag</h6>
+    <h1 class="heading">Paragraph Tags</h1>
+    <h3 class="description">Paragraph tag is denoted by p</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae laborum eius totam obcaecati perspiciatis natus dolores doloribus eos accusantium, ea rerum repellendus impedit necessitatibus, consequatur alias corrupti, itaque ad vero.</p>
+    <h1 class="heading">Beautification tags</h1>
+    <h3 class="description">Paragraph tag is denoted by p</h3>
+    <b>This is written in bold Tag</b>
+    <strong>This is written in strong tag</strong><br>
+    <i>This is written in i tag</i><br>
+    <em>This is written in em tag which means emphasis</em><br>
+    <u>This is written in u tag which means underline</u><br>
+    <sub>This is written in sub tag</sub><br>
+    <sup>This is written in sup tag</sup><br>
+    <big>This is written in big tag</big><br>
+    <small>This is written in small tag</small><br>
+    <code>
+        function add(a, b) {
+            return a + b;
+          }
+          
+          // Example usage:
+          let sum = add(3, 5);
+          console.log(sum); // Output: 8
+    </code>
+    <pre>
+        function add(a, b) {
+            return a + b;
+          }
+          
+          // Example usage:
+          let sum = add(3, 5);
+          console.log(sum); // Output: 8
+
+    </pre>
+    <span>This is written in span tag .Span only takes the required place.It is a inline element</span>
+    <div>
+        This is written in div tag .It is a block level element
+    </div>
+    <!-- br means line break  -->
+    <br>
+    <hr>
+    <h1 class="heading">Anchor Tags</h1>
+    <a href="https://google.com" target="_blank">Go to google</a><br>
+    <img src="./Images/boy.png" alt="boy-image"><br>
+    <a href="https://www.google.com"><img src="./Images/boy.png" alt="boy-image"></a><br>
+    <h1 class="heading">Creating a page layout</h1>
+    <h3 class="description">These are also known as semantic tags</h3>
+    <header>
+        <nav>This is a nav tag</nav>
+    </header>
+    <main>
+        <section>this is written section in tag</section>
+        <article>this is written article in tag</article>
+        <aside>this is written  aside in tag</aside>
+    </main>
+    <footer>
+        This is a footer
+    </footer>
+    <h1 class="heading">Lists in html</h1>
+    <h3 class="description">These are 3 types of list.They are ordered list , unordered lists and detailed lists</h3>
+    <h3 class="description">Unordered Lists</h3>
+    <ul type="square" style="margin-left: 40px;">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <h3 class="description">Ordered Lists</h3>
+    <ol type="1" start="7" reversed="true" style="margin-left: 40px;">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <h3 class="description">Detailed Lists</h3>
+    <dl>
+        <dt>This is title</dt>
+        <dd>This is description</dd>
+    </dl>
+    <h3 class="description">Data list tags</h3>
+    
+    <label for="cars">Choose a car:</label>
+    <input name="cars" list="cars">
+    <datalist id="cars">
+        <option value="Dzire">
+        <option value="Ciaz">
+        <option value="Jimny">
+        <option value="Grand Vitara">
+        <option value="Invicto">
+    </datalist>
+    <h1 class="heading">Tables in html</h1>
+    <table style="border: 1px solid red;">
+      <thead>
+        <tr>
+            <th>SNo</th>
+            <th>Name</th>
+            <th>Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Rahul</td>
+          <td>645</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ankit</td>
+            <td>788</td>
+        </tr>
+      </tbody>
+      <tfoot>
+          <td>EOC</td>
+          <td>EOC</td>
+          <td>EOC</td>
+
+      </tfoot>
+    </table>
+    <h1 class="heading"> Spanning in tables</h1>
+    <h3 class="description">Column spanning</h3>
+
+    <table style="border: 1px solid red;">
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>jill</td>
+            <td>smith</td>
+            <td>43</td>
+            </tr>
+            <tr>
+            <td>eve</td>
+            <td>jackson</td>
+            <td>54</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <h3 class="description">Row spanning</h3>
+   <table style="border: 1px solid red;">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <td>Jill</td>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>6745457</td>
+        </tr>
+        <tr>
+            <td>45645</td>
+        </tr>
+    </tbody>
+   </table>
+   <h1 class="heading"> Textarea in html</h1>
+   <textarea name="intro" id="intro" cols="30" rows="10" placeholder="Write something about yourself"></textarea>
+   <h1 class="heading">Forms in html</h1>
+   <form action="">
+    <label for="name">Name</label>
+    <input type="text"><br>
+    <label for="name">Password</label>
+    <input type="password"><br>
+    <button type="submit">login</button>
+   </form>
+   <h1 class="heading">Select statements in html</h1>
+   <select name="cars" id="cars">
+    <option value="dzire">dzire</option>
+    <option value="ciaz">ciaz</option>
+    <option value="jiminny">jiminny</option>
+    <option value="grand vitara">grand vitara</option>
+    <option value="invicto">invicto</option>
+   </select>
+   <h1 class="heading">Embeding you tube videos in html</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/XsZZQPKLChY?si=X8DVYQS8n0rrJo7i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <h3 class="description">we can embed local videos also with the help of video tag</h3>
+    <video src="./Videos/samplevideo.mp4" autoplay  controls width="350px"></video>
+    <h1 class="heading">Other html tags</h1>
+    <mark>This is marked</mark><br>
+    <del>This is deleted</del><br>
+    <strike>This is striked</strike><br>
+    <figure>
+        <img src="./Images/boy.png" alt="boy-image">
+        <figcaption>This is a boy</figcaption>
+    </figure>
+    <h1 class="heading">Progress and meter tags</h1>
+    <progress min="0" max="100" value="49"></progress>
+    <meter min="0" max="100" low="30" high="80" optimum="50" value="90"></meter>
+   
+    
+    <!-- script tag  -->
+ <script src="./script.js"></script>   
+</body>
+</html>
